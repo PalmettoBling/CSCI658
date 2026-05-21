@@ -35,14 +35,14 @@ public class junit_testing {
         assertEquals(-6, FunWithNumbers.sum(new int[]{-1, -2, -3}));
     }
 
-    /*
+    
     // Zero input test
     // Should return 0
     @Test
     public void tSum_allZeros() {
         assertEquals(0, FunWithNumbers.sum(new int[]{0, 0, 0}));
     }
- */
+ 
 
     // -------------------------------------------------------
     // Tests for sumOfN(int[] a, int n)
@@ -54,7 +54,7 @@ public class junit_testing {
         assertFalse(FunWithNumbers.sumOfN(new int[]{}, 5));
     }
 
-    /*
+    
     // Single element test
     @Test
     public void tSumN_singleElement() {
@@ -66,13 +66,13 @@ public class junit_testing {
     public void tSumN_twoPairMatch() {
         assertTrue(FunWithNumbers.sumOfN(new int[]{1, 2}, 3));
     }
-*/
+
     // Two elements that do NOT sum to n
     @Test
     public void tSumN_twoPairNoMatch() {
         assertFalse(FunWithNumbers.sumOfN(new int[]{1, 2}, 4));
     }
-/*
+
     // Duplicate positives
     @Test
     public void tSumN_pairAmongMany() {
@@ -96,11 +96,11 @@ public class junit_testing {
     public void tSumN_negativesPairToN() {
         assertTrue(FunWithNumbers.sumOfN(new int[]{-1, -2, -3}, -5));
     }
-/* 
+
     // Negative and zero test
     @Test
     public void tSumN_negativeAndPositiveSumToZero() {
         assertTrue(FunWithNumbers.sumOfN(new int[]{-1, 1, 2}, 0));
-    }*/
+    }
 
 }
