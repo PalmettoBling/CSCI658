@@ -3,8 +3,6 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.Test;
 
-import org.junit.*;
-
 public class RootsTest {
 
     private static final double DELTA = 1e-9;
