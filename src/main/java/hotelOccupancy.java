@@ -12,8 +12,6 @@ public void calcRate()
 		MIN_FLOOR = 10,          // Lowest floor of suite units
 		MAX_FLOOR = 16,          // Highest floor of suite units
 		
-		
-
 		TOTAL_SUITES = (MAX_FLOOR - MIN_FLOOR) * SUITES_PER_FLOOR;
 	   
 	    Scanner scan = new Scanner(System.in);
