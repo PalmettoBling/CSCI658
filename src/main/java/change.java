@@ -24,7 +24,7 @@ public class change {
         int dollars = 0, quarters = 0, dimes = 0, nickles = 0, pennies = 0;
         int[] changes = new int[5];
 
-        if (change > 0) {
+        if (change >= 1) {
             dollars = change / 100;
             changes[0] = dollars;
 
